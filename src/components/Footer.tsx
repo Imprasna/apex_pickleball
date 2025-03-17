@@ -17,11 +17,6 @@ const Footer = () => {
               <Youtube size={24} />
             </a>
           </div>
-          
-          <div className="flex items-center gap-2">
-            <span>Made with</span>
-            <span className="font-bold">Durable</span>
-          </div>
         </div>
       </div>
     </footer>

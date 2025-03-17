@@ -22,11 +22,10 @@ const Hero = () => {
         <div className="max-w-5xl">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 leading-tight">
             Expert Pickleball<br className="hidden sm:block" />
-            Facility Planning in<br className="hidden sm:block" />
-            Puducherry
+            Coaching in Chennai<br className="hidden sm:block" />
           </h1>
           <p className="text-base sm:text-lg md:text-xl max-w-2xl mx-auto">
-            Puducherry's Premier Pickleball Branding and Facility Design Services
+            Chennai's Premier Pickleball Coaching done here. We provide the best coaching and training for all age groups.
           </p>
         </div>
       </div>
