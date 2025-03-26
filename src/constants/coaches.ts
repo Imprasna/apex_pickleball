@@ -1,3 +1,6 @@
+import Rohit from "../assets/rohit.jpg";
+import Prasanna from "../assets/prasanna.jpg";
+
 export interface Coach {
   name: string;
   role: string;
@@ -7,12 +10,12 @@ export interface Coach {
 export const coaches: Coach[] = [
     {
       name: "Rohit Ahuja",
-      image: "/rohit.jpg",
+      image: Rohit,
       role: "Head Coach"
     },
     {
       name: "Prasanna S",
-      image: "/prasanna.jpg",
+      image: Prasanna,
       role: "Junior Coach"
     },
     // {
