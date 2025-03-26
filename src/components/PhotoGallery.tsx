@@ -1,11 +1,11 @@
 const PhotoGallery = () => {
   const photos = [
-    "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=1470",
-    "https://images.unsplash.com/photo-1576153192396-180ecef2a715?auto=format&fit=crop&q=80&w=1374",
-    "https://images.unsplash.com/photo-1519861531473-9200262188bf?auto=format&fit=crop&q=80&w=1471",
-    "https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&q=80&w=1469",
-    "https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&q=80&w=1469",
-    "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&q=80&w=1470"
+    "https://images.pexels.com/photos/29820786/pexels-photo-29820786/free-photo-of-empty-pickleball-court-with-net-in-summer-sun.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/27390435/pexels-photo-27390435/free-photo-of-rede.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/17299534/pexels-photo-17299534/free-photo-of-ball-and-paddle-on-court.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/20823430/pexels-photo-20823430/free-photo-of-woman-with-a-table-tennis-racket-in-her-hand.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/29439365/pexels-photo-29439365/free-photo-of-man-playing-pickleball-indoors-in-ha-n-i.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/29439364/pexels-photo-29439364/free-photo-of-pickleball-player-action-shot-in-hanoi.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   ];
 
   return (

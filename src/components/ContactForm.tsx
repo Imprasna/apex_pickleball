@@ -46,10 +46,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="py-20 px-6 bg-emerald-900 text-white">
+    <div id="contact" className="py-20 px-6 bg-emerald-900 text-white">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-6">Reach Out for Pickleball Queries</h2>
-        <p className="mb-12">Contact Grit Pickleball Academy in Puducherry for expert pickleball facility website design solutions.</p>
+        <p className="mb-12">Contact Apex Pickleball for top-tier pickleball facility—crafted to elevate your game.</p>
         
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

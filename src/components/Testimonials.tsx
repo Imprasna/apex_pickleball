@@ -3,8 +3,6 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
-// Import testimonials data
 // @ts-ignore
 import { testimonials } from "../constants/testimonials";
 

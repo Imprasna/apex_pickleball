@@ -1,20 +1,28 @@
-export const blogPosts = [
-    {
-      id: "1",
-      title: "Interactive Class Schedules",
-      description: "We developed an interactive class schedule feature that allows users to easily view and book their preferred pickleball classes. This tool integrates seamlessly with payment gateways, offering a hassle-free booking experience.",
-      content: "Pickleball has seen an unprecedented surge in popularity, and with it comes the need for sophisticated scheduling solutions. Our interactive class scheduling system represents a significant leap forward in how facilities manage their programs. The system not only simplifies the booking process but also provides real-time updates on class availability, instructor information, and skill level requirements. We've incorporated features like waitlist management, automatic reminder notifications, and seamless payment processing to ensure a smooth experience for both facility managers and participants. The response from our community has been overwhelmingly positive, with many noting how the system has transformed their pickleball journey.",
-      image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=1470",
-      date: "March 15, 2024",
-      readTime: 5
+import RiseOfPB from "../assets/blogs/rise-of-pb.jpeg";
+import TheEarlyDaysOfPB from "../assets/blogs/The-Early-Days.jpg";
+import EssentialFacility from "../assets/blogs/Essential-Pickleball-Facility.jpg";
+
+
+export const blogPosts = {
+    '1': {
+        title: "The Rise of Pickleball: A Modern Sports Revolution",
+        content: `Pickleball has emerged as one of the fastest-growing sports globally, blending elements of tennis, badminton, and table tennis into an accessible and engaging game. Originating in 1965 as a backyard pastime, it has now gained massive traction worldwide, with dedicated courts, professional tournaments, and an expanding player base. Its appeal lies in its affordability, ease of learning, and inclusivity, attracting people of all ages. The sport fosters a strong sense of community while offering numerous health benefits, making it a favorite among recreational and competitive players alike. With the rise of professional leagues, sponsorships, and international governing bodies, pickleball is no longer just a trend but a modern sports revolution poised to redefine active living and competitive play across the globe.`,
+        image: RiseOfPB,
+        date: "2024-02-15",
+        readTime: "5 min read"
     },
-    {
-      id: "2",
-      title: "Dynamic Photo Gallery",
-      description: "A vibrant and dynamic photo gallery was created to showcase the facility's amenities and events. This feature allows users to peruse through images with captions, fostering an engaging visual experience.",
-      content: "Visual storytelling has become an essential part of how we communicate the excitement and energy of pickleball to our community. Our dynamic photo gallery serves as a window into the vibrant life of our facility, capturing everything from intense tournament matches to casual practice sessions. The gallery features advanced filtering options, allowing visitors to sort images by event type, date, or player level. We've also implemented a user submission system where members can contribute their own photos, creating a more inclusive and community-driven platform. The impact has been remarkable, with increased engagement across all our digital platforms and a stronger sense of community among our members.",
-      image: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?auto=format&fit=crop&q=80&w=1374",
-      date: "March 14, 2024",
-      readTime: 4
+    '2': {
+        title: "Essential Pickleball Facility",
+        content: `As the popularity of pickleball continues to surge, the need for well-designed and well-equipped facilities is more crucial than ever. Whether you're setting up a recreational center, a training academy, or a tournament venue, ensuring that your pickleball facility meets essential standards can make a significant difference in the player experience. Here’s a breakdown of the key elements that define an outstanding pickleball facility.`,
+        image: EssentialFacility,
+        date: "2024-02-10",
+        readTime: "7 min read"
+    },
+    '3': {
+        title: "The Early Days of Pickleball in India",
+        content: `Pickleball made its way to India in the early 2010s, introduced by a few enthusiastic players who had experienced the sport abroad. Initially, it was played in small pockets by sports enthusiasts looking for a fun and engaging alternative to mainstream sports like cricket, badminton, and tennis. The sport’s simplicity, affordability, and accessibility contributed to its early adoption, with makeshift courts popping up in parks and residential societies.`,
+        image: TheEarlyDaysOfPB,
+        date: "2024-02-10",
+        readTime: "7 min read"
     }
-  ];
+};
