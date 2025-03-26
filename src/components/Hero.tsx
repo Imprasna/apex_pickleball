@@ -1,10 +1,63 @@
+// import { Instagram, Youtube } from 'lucide-react';
+
+// const Hero = () => {
+//   return (
+//     <div className="relative min-h-screen bg-emerald-900 text-white">
+//       <nav className="absolute top-0 left-0 right-0 p-4 md:p-6 flex justify-between items-center z-10">
+//         <div className="text-xl md:text-2xl font-bold">Apex Pickleball</div>
+//         <div className="flex items-center gap-4 md:gap-6">
+//           <a href="https://instagram.com" className="hover:text-emerald-300">
+//             <Instagram size={20} className="md:w-6 md:h-6" />
+//           </a>
+//           <a href="https://youtube.com" className="hover:text-emerald-300">
+//             <Youtube size={20} className="md:w-6 md:h-6" />
+//           </a>
+//           <button className="border border-white px-3 py-1.5 md:px-4 md:py-2 text-sm md:text-base hover:bg-white hover:text-emerald-900 transition-colors">
+//             Contact
+//           </button>
+//         </div>
+//       </nav>
+      
+//       <div className="absolute inset-0 flex items-center justify-center text-center px-4 md:px-6">
+//         <div className="max-w-5xl">
+//           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 leading-tight">
+//             Expert Pickleball<br className="hidden sm:block" />
+//             Coaching in Chennai<br className="hidden sm:block" />
+//           </h1>
+//           <p className="text-base sm:text-lg md:text-xl max-w-2xl mx-auto">
+//             Chennai's Premier Pickleball Coaching done here. We provide the best coaching and training for all age groups.
+//           </p>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Hero;
+
 import { Instagram, Youtube } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen bg-emerald-900 text-white">
+    <div className="relative min-h-screen text-white overflow-hidden">
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="/hero-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black bg-opacity-50" />
+
+      {/* Navigation */}
       <nav className="absolute top-0 left-0 right-0 p-4 md:p-6 flex justify-between items-center z-10">
-        <div className="text-xl md:text-2xl font-bold">Grit Pickleball Academy</div>
+        <div className="text-xl md:text-2xl font-bold">Apex Pickleball</div>
         <div className="flex items-center gap-4 md:gap-6">
           <a href="https://instagram.com" className="hover:text-emerald-300">
             <Instagram size={20} className="md:w-6 md:h-6" />
@@ -18,7 +71,8 @@ const Hero = () => {
         </div>
       </nav>
       
-      <div className="absolute inset-0 flex items-center justify-center text-center px-4 md:px-6">
+      {/* Content */}
+      <div className="absolute inset-0 flex items-center justify-center text-center px-4 md:px-6 z-10">
         <div className="max-w-5xl">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 leading-tight">
             Expert Pickleball<br className="hidden sm:block" />

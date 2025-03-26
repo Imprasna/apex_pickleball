@@ -48,7 +48,7 @@ const ContactForm = () => {
   return (
     <div className="py-20 px-6 bg-emerald-900 text-white">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-6">Reach Out for Design Queries</h2>
+        <h2 className="text-4xl font-bold mb-6">Reach Out for Pickleball Queries</h2>
         <p className="mb-12">Contact Grit Pickleball Academy in Puducherry for expert pickleball facility website design solutions.</p>
         
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -93,10 +93,6 @@ const ContactForm = () => {
             {isSubmitting ? 'Sending...' : 'Send Message'}
           </button>
         </form>
-        
-        <p className="mt-6 text-sm text-emerald-400">
-          This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
-        </p>
       </div>
       <Toaster position="top-right" />
     </div>

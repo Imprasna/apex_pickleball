@@ -9,8 +9,8 @@ const PhotoGallery = () => {
   ];
 
   return (
-    <div className="py-20 px-6 bg-emerald-900">
-      <h2 className="text-4xl font-bold text-center text-white mb-16">Explore Our Facility Designs</h2>
+    <div className="py-20 px-6 bg-white">
+      <h2 className="text-4xl font-bold text-center text-black mb-16">Apex Pickleball Gallery</h2>
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {photos.map((photo, index) => (
           <div key={index} className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl">

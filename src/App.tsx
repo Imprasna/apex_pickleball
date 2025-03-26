@@ -2,7 +2,7 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import Coaches from './components/Coaches';
 import Gallery from './components/Gallery';
-import ClientLogos from './components/ClientLogos';
+// import ClientLogos from './components/ClientLogos';
 import Testimonials from './components/Testimonials';
 import PhotoGallery from './components/PhotoGallery';
 import ContactForm from './components/ContactForm';
@@ -15,7 +15,7 @@ function App() {
       <Services />
       <Coaches />
       <Gallery />
-      <ClientLogos />
+      {/* <ClientLogos /> */}
       <Testimonials />
       <PhotoGallery />
       <ContactForm />
