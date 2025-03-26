@@ -1,4 +1,5 @@
 import Header from "./Header";
+import HeroVideo from "../assets/hero-video.mp4";
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="hero-video.mp4" type="video/mp4" />
+        <source src={HeroVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
